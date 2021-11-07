@@ -60,15 +60,11 @@ $$
     P(T \mid E) &= 0.9  
 \end{align*}
 $$
-
 Por lo tanto, 
-
 $$
 \begin{align*}  
     P(E \mid T) &= \frac {P(T\mid E) P(E)}{P(T\mid E^c)P(E^c) + P(T \mid E)P(E)} \\  
-
     &= \frac {0.9 \times 0.001}{0.01 \times 0.999+0.9 \times 0.001} \\
-
     &=8.2645 \times 10^{-2} \approx 0.083   
 \end{align*}
 $$

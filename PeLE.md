@@ -1,4 +1,4 @@
-#Tarea PeLE
+# Tarea PeLE
 **Ejemplo 1.64** 
  Para el ejemplo anterior, si se sabe que el Sr. Rodríguez fue nombrado gerente de una sucursal de su empresa ¿cuál es la probabilidad de que la empresa haya abierto una sucursal en Montevideo?  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Es claro de la regla de Bayes que:

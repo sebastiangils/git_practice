@@ -6,3 +6,10 @@ Elaborado por Sebastian Gil y
 - git remote show origin: mostrar las ramas remotas
 - git push origin --delete rama_remota_a_borrar: borrar rama del repositorio remoto
 
+Submodulos
+1. Crear repo local subprincipal
+2. Crear repo en Github subprincipal
+3. Crear conexión de subprincipales
+4. Ir a repositorio principal 
+5. git submodule add URL_REPO_SUBMODULO NombreCarpeta 
+El nombre de la carpeta será como llamaremos a nuestro submodulo dentro del repo principal, no necesariamente tiene que tener el nombre original del repositorio subprincipal

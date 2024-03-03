@@ -30,9 +30,13 @@ Comandos:
 	-b nombreRama : crea la rama y la cambia de manera inmediata 
 	IdCommit: vuelve de manera temporal al commit del Id que selecionaste 
 
+- git revert IdCommit: Crear un nuevo commit cuando te devuelve a un antiguo commit
+
 -git merge ramaB: Mezclar las actualizaciones de la rama al archivo que estamos usando
 
 -git remote : agregar un servidor externo donde podemos subir nuestros cambios
 	- add origin: le indicamos de donde obtenemos el codigo y a donde subimos
 
-git push -u origin ramaC: subir una nueva rama a GitHub sin tener que unirla con la Main
+- git push -u origin ramaC: subir una nueva rama a GitHub sin tener que unirla con la Main
+
+- git revert IdCommit: Crear un nuevo commit cuando te devuelve a un antiguo commit

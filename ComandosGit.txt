@@ -1,6 +1,5 @@
 Comandos iniciales para el uso de Git
 Elaborado por Sebastian Gil
-Modificado por ??
 
 Comandos:  
 - git config -h : mirar posibles comandos
@@ -20,10 +19,17 @@ Comandos:
 - git status -m : lista de archivos con sus respectivas modificaciones 
 - git diff: muestra los cambios que nosotros realizamos en los archivos
 -git diff --staged: muestra los cambios en la etapa de STAGED
-- git log --oneline: muestra el historial de cambios con su respectivo ID
+- git log: muestra el historial de cambios con su respectivo ID
+	--oneline: muestra solo el nombre del commit
+	--graph: muestra los commits con grafo de ramas
+	--stat: 
 
--git branch : dice la rama en la que estamos trabajando
-git checkout -b nombreRama : crea la rama y la cambia de manera inmediata 
+
+- git branch : dice la rama en la que estamos trabajando
+- git checkout 
+	-b nombreRama : crea la rama y la cambia de manera inmediata 
+	IdCommit: vuelve de manera temporal al commit del Id que selecionaste 
+
 -git merge ramaB: Mezclar las actualizaciones de la rama al archivo que estamos usando
 
 -git remote : agregar un servidor externo donde podemos subir nuestros cambios

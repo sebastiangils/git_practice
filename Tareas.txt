@@ -1,0 +1,47 @@
+
+1. *Iniciar un Repositorio:*
+   - Crea un nuevo repositorio en GitHub.
+   - Clónalo en tu máquina local.
+   - Agrega un archivo README.md y realiza un commit.
+   - Empuja los cambios al repositorio en GitHub.
+
+2. *Crear y Cambiar Ramas:*
+   - Crea una nueva rama llamada "feature".
+   - Cambia a la nueva rama.
+   - Agrega un archivo llamado feature.txt en esa rama.
+   - Realiza un commit y empuja los cambios.
+   - Cambia de nuevo a la rama principal.
+   - Fusiona la rama "feature" en la rama principal.
+
+3. *Colaboración:*
+   - Invita a un amigo a colaborar en tu repositorio.
+   - Tu amigo debe clonar el repositorio, crear una nueva rama, realizar cambios y enviar un pull request.
+   - Revisa los cambios en GitHub y realiza la fusión.
+
+4. *Resolución de Conflictos:*
+   - Crea una nueva rama desde la rama principal.
+   - Realiza cambios en un archivo y haz un commit.
+   - Cambia a la rama principal y realiza cambios diferentes en el mismo archivo.
+   - Intenta fusionar la rama con conflictos.
+   - Resuelve los conflictos y completa la fusión.
+
+5. *Ignorar Archivos:*
+   - Crea un archivo llamado temp.txt.
+   - Crea un archivo .gitignore y añade temp.txt a la lista de archivos ignorados.
+   - Realiza un commit y observa que temp.txt no se incluye en el commit.
+
+6. *Explorar el Historial:*
+   - Utiliza git log para ver el historial de commits en tu repositorio.
+   - Utiliza opciones como --oneline, --graph, y --stat para obtener diferentes vistas.
+   - Encuentra un commit anterior y realiza un checkout a ese commit.
+
+7. *Revertir Cambios:*
+   - Realiza un commit con algunos cambios.
+   - Revierte ese commit utilizando git revert.
+   - Observa cómo se crea un nuevo commit que deshace los cambios.
+
+8. *Submódulos:*
+   - Crea un repositorio "submódulo" en GitHub.
+   - En tu repositorio principal, añade el submódulo.
+   - Realiza cambios en el submódulo y observa cómo se reflejan en tu repositorio principal.
+

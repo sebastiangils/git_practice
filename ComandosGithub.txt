@@ -13,3 +13,11 @@ Submodulos
 4. Ir a repositorio principal 
 5. git submodule add URL_REPO_SUBMODULO NombreCarpeta 
 El nombre de la carpeta será como llamaremos a nuestro submodulo dentro del repo principal, no necesariamente tiene que tener el nombre original del repositorio subprincipal
+
+Notas:
+Es necesario inicializar y actualizar los submodulos cuando se usan 
+git submodule init
+git submodule update
+O USAR
+git submodule update --recursive --remote
+

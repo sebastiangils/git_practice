@@ -1,0 +1,8 @@
+Comandos de Git para interactuar con Github
+
+Elaborado por Sebastian Gil y 
+
+
+- git remote show origin: mostrar las ramas remotas
+- git push origin --delete rama_remota_a_borrar: borrar rama del repositorio remoto
+
